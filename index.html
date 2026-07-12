@@ -6,7 +6,7 @@ layout: default
   <li>
     <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     <span class="meta">{{ post.date | date: "%B %-d, %Y" }}</span>
-    {% if post.excerpt %}<p>{{ post.excerpt }}</p>{% endif %}
+    {{ post.excerpt }}
   </li>
   {% endfor %}
 </ul>
