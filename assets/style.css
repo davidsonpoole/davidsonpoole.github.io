@@ -58,3 +58,30 @@ footer {
   border-top: 1px solid #eee;
   padding-top: 1rem;
 }
+
+article img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1.5rem auto;
+  border-radius: 4px;
+}
+
+pre.highlight {
+  padding: 1rem;
+  border-radius: 6px;
+  overflow-x: auto;
+  font-size: 0.9em;
+  line-height: 1.5;
+}
+
+code {
+  font-family: "SFMono-Regular", Consolas, Menlo, monospace;
+}
+
+p code {
+  background: #f0f0f0;
+  padding: 0.15em 0.4em;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
